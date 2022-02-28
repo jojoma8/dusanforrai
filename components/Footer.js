@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -7,7 +8,9 @@ function Footer() {
       bg-blue-900"
     >
       <div className="flex justify-evenly  text-gray-300">
-        <a href="/about">About Dusan</a>
+        <Link href="/about">
+          <a>About Dusan</a>
+        </Link>
         {/* <div>Get In Touch</div> */}
       </div>
     </div>

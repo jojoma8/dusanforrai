@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -14,12 +15,12 @@ function Header() {
           Dusan Forrai Consultancy
         </div>
         <div className="flex items-center pr-5">
-          <a className="p-3" href="/">
-            Home
-          </a>
-          <a className="p-3" href="/about">
-            About
-          </a>
+          <Link href="/">
+            <a className="p-3">Home</a>
+          </Link>
+          <Link href="/about">
+            <a className="p-3">About</a>
+          </Link>
           {/* <div className="p-3">Contact</div> */}
         </div>
       </div>
