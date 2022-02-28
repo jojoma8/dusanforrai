@@ -14,9 +14,13 @@ function Header() {
           Dusan Forrai Consultancy
         </div>
         <div className="flex items-center pr-5">
-          <div className="p-3">Home</div>
-          <div className="p-3">About</div>
-          <div className="p-3">Contact</div>
+          <a className="p-3" href="/">
+            Home
+          </a>
+          <a className="p-3" href="/about">
+            About
+          </a>
+          {/* <div className="p-3">Contact</div> */}
         </div>
       </div>
       <div
